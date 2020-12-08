@@ -60,25 +60,18 @@ cd Lung-Nodule-Segmenation
 ```
 <br/>
 <br/>
-| ------------------ | -------------------------------------------  |
+
 |       FileName     |                   About                      |
 | ------------------ | -------------------------------------------  |
 | <a href="https://github.com/NoahApthorpe/CellMagicWand">cell_magic_wand.py</a> | makes mask labels based on nodule coordinates |
-| ------------------  | -------------------------------------------  |
 | preprocess.py       | contains all preprocessing steps  |
-| ------------------ | -------------------------------------------  |
 | table.py | makes tables from the preprocessed datas (.hdf5 files)  |
-| ------------------ | -------------------------------------------  |
 | slice_idx.py | determines training and testing indexes of the 2D scilces  |
-| ------------------ | -------------------------------------------  |
 | data_generator_sequence_table.py | keras sequence method for data augmentation from tables  |
-| ------------------ | -------------------------------------------  |
 | nasnet_v2.py | propsed network(Figure2)  |
-| ------------------ | -------------------------------------------  |
 | nasnet_v2_train.py | contains loss function and other functions for training the network  |
-| ------------------ | -------------------------------------------  |
 | postprocess.py | contains all postrocessing steps  |
-| ------------------ | -------------------------------------------  |
+
 <br/>
 <br/>
 <a href="https://wiki.cancerimagingarchive.net/display/Public/LIDC-IDRI">Dataset</a>
