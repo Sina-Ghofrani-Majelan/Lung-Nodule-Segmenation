@@ -34,4 +34,4 @@ In my thesis, I have tried to study lung cancer screening based on deep learning
 </p>
 <br/>
 In this research, a deep neural network is proposed for lung nodule segmentation using 2D slices of Chest CT images. For the encoder part of this network, the
-[I'm an inline-style link](https://www.google.com)
+[[I'm an inline-style link]](https://www.google.com)
