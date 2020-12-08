@@ -28,7 +28,7 @@ Lung cancer is an aggressive disease resulting in more than one million deaths p
 In my thesis, I have tried to study lung cancer screening based on deep learning. Designing a system for lung cancer screening starts with preparing the data and the labels for training the network. A voxel value in a CT image represents the radiodensity of a tissue and is measured with the Hounsfield meter. Therefore, all pixel values of a CT image should be transferred to the Hounsfield meter. By applying a modified normalization filter, morphological erosion and dilation filter, K-means algorithm, and some other techniques, the lung areas are segmented. Therefore, other tissues that do not contain any information about nodules are removed, and the data is ready to be fed to the model. Additionally, the mask labels are obtained based on the nodule coordinates, the minimum diameter of nodules, and the maximum diameter of nodules. Figure 2 shows an example of lung segmentation.
 <br/>
 <p align="center" width="100%">
-    <img width="33%" src="https://github.com/SinaGhofrani1/Lung-Nodule-Segmenation/blob/main/Images/Figure2.jpg" alt> 
+    <img width="50%" src="https://github.com/SinaGhofrani1/Lung-Nodule-Segmenation/blob/main/Images/Figure2.jpg" alt> 
     <em>Figure 2- Original CT image and the corresponding segmented lungs (after performing pre-process steps)</em>
 </p>
 <br/>
