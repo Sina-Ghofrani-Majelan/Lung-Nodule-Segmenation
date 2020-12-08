@@ -9,7 +9,7 @@ Lung cancer is an aggressive disease resulting in more than one million deaths p
 
 <!--<div style="text-align:center"><img src="https://github.com/SinaGhofrani1/Lung-Nodule-Segmenation/blob/main/Images/Figure1.jpg" /></div>
 
-<!--**Align center:**
+
 <p align="center" width="100%">
     <img width="33%" src="https://github.com/SinaGhofrani1/Lung-Nodule-Segmenation/blob/main/Images/Figure1.jpg"> 
 </p>
