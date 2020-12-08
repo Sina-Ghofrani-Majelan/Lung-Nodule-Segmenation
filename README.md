@@ -56,7 +56,7 @@ In this research, a deep neural network is proposed for lung nodule segmentation
 ### How to use these files:
 Please download the <a href="https://wiki.cancerimagingarchive.net/display/Public/LIDC-IDRI">LIDC-IDRI Dataset</a> and clone the repository
 ```
-git clone https://github.com/SinaGhofrani1/Lung-Nodule-Segmenation
+git clone https://github.com/Sina-Ghofrani/Lung-Nodule-Segmenation
 cd Lung-Nodule-Segmenation
 ```
 <br/>
