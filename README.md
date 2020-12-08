@@ -34,9 +34,8 @@ In my thesis, I have tried to study lung cancer screening based on deep learning
 </p>
 <br/>
 In this research, a deep neural network is proposed for lung nodule segmentation using 2D slices of Chest CT images. For the encoder part of this network, the
-<p align="left">
 <a href="https://arxiv.org/abs/1611.01578?source=post_page-----b250c5b1b2e5----------------------">x</a>
-</p> is adopted.
+is adopted.
 <br/>Furthermore, a summation of Generalized Dice Loss (GDL) and weighted cross-entropy (WCE) is used as the loss function to train the network. This loss function gives the network the ability to overcome the nodules class imbalance problem. Different data augmentation approaches are also used to solve the overfitting issue. The output of the network is a binary mask in which the lung nodule is identified and segmented. In this way, I was able to solve this localization problem (lung nodule detection) by considering it as a segmentation task and designing a powerful network. The proposed method achieved 69.96 and 80.12 in terms of dice coefficient and sensitivity measures respectively. Figure 3 shows an overview of the proposed architecture for lung nodule segmentation.
 <br/>The LIDC-IDRI and the LUNA16 datasets are used for training and testing the proposed network, respectively. All the pre-processing steps, network architecture, and post-processing steps are implemented in Python using Tensorflow framework. The PyTable library is used to control the input data flow and keras sequence method for data augmentation. To further improve the speed and efficiency, multi-processing capability of CPU is used in order to parallelize all the processes. 
 <br/>
