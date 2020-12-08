@@ -33,7 +33,41 @@ In my thesis, I have tried to study lung cancer screening based on deep learning
     <br/><em>Figure 2- Original CT image and the corresponding segmented lungs (after performing pre-process steps)</em>
 </p>
 <br/>
-In this research, a deep neural network is proposed for lung nodule segmentation using 2D slices of Chest CT images. For the encoder part of this network, the [Neural Architecture Search](https://arxiv.org/abs/1611.01578?source=post_page-----b250c5b1b2e5----------------------) (NASNet) is adopted, which is a powerful feature extractor.For the decoder part, [Global Convolutional Network](https://arxiv.org/abs/1703.02719) (GCN) as well as [Squeeze and Excitation Network](https://arxiv.org/abs/1709.01507) (SE) are proposed to help the model to reconstruct the final segmentation map in a more accurate way compared to the existing segmentation models in the field of Medical Image Analysis. GCNs avoid sparse connections and enable densely connections within a large k×k region in the feature map and utilizes a combination of k×1+1×k and 1×k+k×1 convolutions to implement the k×k convolution effectively with a lower number of parameters compared to the trivial k×k convolution. In order to effectively integrate the multi-level features, I propose using a channel attention mechanism by applying the SE block. The Channel attention mechanism enables the network to weight the channels adaptively to get more discriminative features.
+In this research, a deep neural network is proposed for lung nodule segmentation using 2D slices of Chest CT images. For the encoder part of this network, the [Neural Architecture Search](https://arxiv.org/abs/1611.01578?source=post_page-----b250c5b1b2e5----------------------) is adopted.
 <br/>Furthermore, a summation of Generalized Dice Loss (GDL) and weighted cross-entropy (WCE) is used as the loss function to train the network. This loss function gives the network the ability to overcome the nodules class imbalance problem. Different data augmentation approaches are also used to solve the overfitting issue. The output of the network is a binary mask in which the lung nodule is identified and segmented. In this way, I was able to solve this localization problem (lung nodule detection) by considering it as a segmentation task and designing a powerful network. The proposed method achieved 69.96 and 80.12 in terms of dice coefficient and sensitivity measures respectively. Figure 3 shows an overview of the proposed architecture for lung nodule segmentation.
+<br/>The LIDC-IDRI and the LUNA16 datasets are used for training and testing the proposed network, respectively. All the pre-processing steps, network architecture, and post-processing steps are implemented in Python using Tensorflow framework. The PyTable library is used to control the input data flow and keras sequence method for data augmentation. To further improve the speed and efficiency, multi-processing capability of CPU is used in order to parallelize all the processes. 
+<br/>
+<p align="center" width="100%">
+    <img width="50%" src="https://github.com/SinaGhofrani1/Lung-Nodule-Segmenation/blob/main/Images/Figure3.jpg" alt> 
+    <br/><em>Figure 3-Propsed architecture for pulmonary nodule segmentation</em>
+</p>
+<br/>
+<br/>
+<br/>
+
+### Requirements
+- [numpy 1.17.4](https://numpy.org/)
+- [tensorflow 2.1.0](https://www.tensorflow.org/)
+- [scipy 1.4.1](https://www.scipy.org/)
+- [pillow 7.0.0](https://pillow.readthedocs.io/)
+- [opencv-python](https://github.com/skvark/opencv-python)
+
+### Usage
+git clone https://github.com/SinaGhofrani1/Lung-Nodule-Segmenation
+cd Lung-Nodule-Segmenation
+
+|       FileName     |                   Usage                      |
+| ------------------ | -------------------------------------------  |
+| cell_magic_wand.py | make mask labels based on nodule coordinates |
+
+<br/>
+<br/>
+
+[Dataset](https://wiki.cancerimagingarchive.net/display/Public/LIDC-IDRI)
+
+<br/>
+<br/>
+
+Please feel free to contact me, or raise an issue if you encounter any problems.
 
 
