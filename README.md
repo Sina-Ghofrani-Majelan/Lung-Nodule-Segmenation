@@ -1,5 +1,7 @@
-# Lung-Nodule-Segmenation
+# Lung Nodule Segmenation
 This repository contains the Keras implementation of my MSc thesis (Iran University Of Science and Technology)
+<br/>
+<br/>
 <br/>
 Thesis tilte:Pulmonary nodule detection Based on Deep Learning
 Here is a brief description of my thesis:
