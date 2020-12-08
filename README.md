@@ -8,7 +8,7 @@ Lung cancer is an aggressive disease resulting in more than one million deaths p
 
 
 <!--![Imgur Image](https://github.com/SinaGhofrani1/Lung-Nodule-Segmenation/blob/main/Images/Figure1.jpg)-->
-<p align=”center”> <img src=https://github.com/SinaGhofrani1/Lung-Nodule-Segmenation/blob/main/Images/Figure1.jpg?raw=true" alt="Sublime's custom image"/></p>
+<!--<p align=”center”> <img src=https://github.com/SinaGhofrani1/Lung-Nodule-Segmenation/blob/main/Images/Figure1.jpg?raw=true" alt="Sublime's custom image"/></p>-->
 
-
+<div style="text-align:center"><img src="https://github.com/SinaGhofrani1/Lung-Nodule-Segmenation/blob/main/Images/Figure1.jpg" /></div>
 
