@@ -29,7 +29,7 @@ In my thesis, I have tried to study lung cancer screening based on deep learning
 <br/>
 <p align="center" width="100%">
     <img width="50%" src="https://github.com/SinaGhofrani1/Lung-Nodule-Segmenation/blob/main/Images/Figure2.jpg" alt> 
-    <em>Figure 2- Original CT image and the corresponding segmented lungs (after performing pre-process steps)</em>
+    <br/><em>Figure 2- Original CT image and the corresponding segmented lungs (after performing pre-process steps)</em>
 </p>
 <br/>
 
