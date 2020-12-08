@@ -39,7 +39,7 @@ In this research, a deep neural network is proposed for lung nodule segmentation
 <br/>
 <br/>
 <p align="center" width="100%">
-    <img width="50%" src="https://github.com/SinaGhofrani1/Lung-Nodule-Segmenation/blob/main/Images/Figure3.jpg" alt> 
+    <img width="100%" src="https://github.com/SinaGhofrani1/Lung-Nodule-Segmenation/blob/main/Images/Figure3.jpg" alt> 
     <br/><em>Figure 3-Propsed architecture for pulmonary nodule segmentation</em>
 </p>
 <br/>
