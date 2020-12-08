@@ -53,13 +53,16 @@ In this research, a deep neural network is proposed for lung nodule segmentation
 - [pillow 7.0.0](https://pillow.readthedocs.io/)
 - [opencv-python](https://github.com/skvark/opencv-python)
 
-### Usage
+### How to use these files:
+Please download the LIDC-IDRI <a href="https://wiki.cancerimagingarchive.net/display/Public/LIDC-IDRI">Dataset</a> and clone the repository
 ```
 git clone https://github.com/SinaGhofrani1/Lung-Nodule-Segmenation
 cd Lung-Nodule-Segmenation
 ```
 <br/>
 <br/>
+
+other necessary explanations are in the table below:
 
 |       FileName     |                   About                      |
 | ------------------ | -------------------------------------------  |
@@ -74,11 +77,7 @@ cd Lung-Nodule-Segmenation
 
 <br/>
 <br/>
-<a href="https://wiki.cancerimagingarchive.net/display/Public/LIDC-IDRI">Dataset</a>
 
-
-<br/>
-<br/>
 Please feel free to contact me, if you have any question or issue about these files or Dataset.
 
 
