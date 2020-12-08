@@ -8,7 +8,7 @@ Lung cancer is an aggressive disease resulting in more than one million deaths p
 <br/>
 <p align="center" width="100%">
     <img width="100%" src="https://github.com/SinaGhofrani1/Lung-Nodule-Segmenation/blob/main/Images/Figure1.jpg" alt> 
-    <em>Figure 1- An example of CT images in three different views. From left to right respectively: axial, sagittal, and coronal views. The lung nodule in these images is marked using a red bounding box.</em>
+    <br/><em>Figure 1- An example of CT images in three different views. From left to right respectively: axial, sagittal, and coronal views. The lung nodule in these images is marked using a red bounding box.</em>
 </p>
 <br/>
 <!--**Align left:**
