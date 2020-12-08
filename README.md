@@ -37,6 +37,7 @@ In this research, a deep neural network is proposed for lung nodule segmentation
 <br/><br/>Furthermore, a summation of Generalized Dice Loss (GDL) and weighted cross-entropy (WCE) is used as the loss function to train the network. This loss function gives the network the ability to overcome the nodules class imbalance problem. Different data augmentation approaches are also used to solve the overfitting issue. The output of the network is a binary mask in which the lung nodule is identified and segmented. In this way, I was able to solve this localization problem (lung nodule detection) by considering it as a segmentation task and designing a powerful network. The proposed method achieved 69.96 and 80.12 in terms of dice coefficient and sensitivity measures respectively. Figure 3 shows an overview of the proposed architecture for lung nodule segmentation.
 <br/><br/>The LIDC-IDRI and the LUNA16 datasets are used for training and testing the proposed network, respectively. All the pre-processing steps, network architecture, and post-processing steps are implemented in Python using Tensorflow framework. The PyTable library is used to control the input data flow and keras sequence method for data augmentation. To further improve the speed and efficiency, multi-processing capability of CPU is used in order to parallelize all the processes. 
 <br/>
+<br/>
 <p align="center" width="100%">
     <img width="50%" src="https://github.com/SinaGhofrani1/Lung-Nodule-Segmenation/blob/main/Images/Figure3.jpg" alt> 
     <br/><em>Figure 3-Propsed architecture for pulmonary nodule segmentation</em>
@@ -53,26 +54,39 @@ In this research, a deep neural network is proposed for lung nodule segmentation
 - [opencv-python](https://github.com/skvark/opencv-python)
 
 ### Usage
+```
 git clone https://github.com/SinaGhofrani1/Lung-Nodule-Segmenation
 cd Lung-Nodule-Segmenation
-
-|       FileName     |                   Usage                      |
+```
+<br/>
+<br/>
 | ------------------ | -------------------------------------------  |
-| <a href="https://github.com/NoahApthorpe/CellMagicWand">cell_magic_wand.py</a> | make mask labels based on nodule coordinates |
-
+|       FileName     |                   About                      |
+| ------------------ | -------------------------------------------  |
+| <a href="https://github.com/NoahApthorpe/CellMagicWand">cell_magic_wand.py</a> | makes mask labels based on nodule coordinates |
+| ------------------  | -------------------------------------------  |
+| preprocess.py       | contains all preprocessing steps  |
+| ------------------ | -------------------------------------------  |
+| table.py | makes tables from the preprocessed datas (.hdf5 files)  |
+| ------------------ | -------------------------------------------  |
+| slice_idx.py | determines training and testing indexes of the 2D scilces  |
+| ------------------ | -------------------------------------------  |
+| data_generator_sequence_table.py | keras sequence method for data augmentation from tables  |
+| ------------------ | -------------------------------------------  |
+| nasnet_v2.py | propsed network(Figure2)  |
+| ------------------ | -------------------------------------------  |
+| nasnet_v2_train.py | contains loss function and other functions for training the network  |
+| ------------------ | -------------------------------------------  |
+| postprocess.py | contains all postrocessing steps  |
+| ------------------ | -------------------------------------------  |
 <br/>
 <br/>
-
-
-
-
-
 <a href="https://wiki.cancerimagingarchive.net/display/Public/LIDC-IDRI">Dataset</a>
 
 
 <br/>
 <br/>
+Please feel free to contact me, if you have any question or issue about these files or Dataset.
 
-Please feel free to contact me, or raise an issue if you encounter any problems.
 
 
