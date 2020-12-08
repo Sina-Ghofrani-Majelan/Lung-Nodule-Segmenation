@@ -66,19 +66,19 @@ other necessary explanations are in the table below:
 
 |       FileName     |                   About                      |
 | ------------------ | -------------------------------------------  |
-| <a href="https://github.com/NoahApthorpe/CellMagicWand">cell_magic_wand.py</a> | makes mask labels based on nodule coordinates |
-| preprocess.py       | contains all preprocessing steps  |
-| table.py | makes tables from the preprocessed datas (.hdf5 files)  |
-| slice_idx.py | determines training and testing indexes of the 2D scilces  |
-| data_generator_sequence_table.py | keras sequence method for data augmentation from tables  |
-| nasnet_v2.py | propsed network(Figure2)  |
-| nasnet_v2_train.py | contains loss function and other functions for training the network  |
-| postprocess.py | contains all postrocessing steps  |
+| <a href="https://github.com/NoahApthorpe/CellMagicWand">cell_magic_wand.py</a> | Makes mask labels based on nodule coordinates |
+| preprocess.py       | Contains all preprocessing steps  |
+| table.py | Makes tables from the pre-processed datas (.hdf5 files)  |
+| slice_idx.py | Determines training and testing indexes of the 2D slices  |
+| data_generator_sequence_table.py | Keras sequence method for data augmentation from tables  |
+| nasnet_v2.py | Proposed network (Figure2)  |
+| nasnet_v2_train.py | Contains loss function and other functions for training the network  |
+| postprocess.py | Contains all post-processing steps  |
 
 <br/>
 <br/>
 
-Please feel free to contact me, if you have any question or issue about these files or Dataset.
+Please feel free to contact me, if you need any further information about these files or Dataset.
 
 
 
